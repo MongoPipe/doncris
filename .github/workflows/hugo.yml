@@ -46,12 +46,11 @@ jobs:
         run: |
           pwd \
           && pwd \
-          && pwd \
-          && pwd \
-          && pwd \
-          && pwd \
+          && pwd \         
           && ls /home/runner/work/doncris \
           && ls /home/runner/work/doncris \
+          && ls /home/runner/work/doncris/doncris \
+          && ls /home/runner/work/doncris/doncris
       - name: Lsit current folder
         run: |
           pwd
