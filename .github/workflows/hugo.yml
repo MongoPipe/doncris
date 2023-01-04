@@ -44,9 +44,12 @@ jobs:
           submodules: recursive
       - name: Change folder
         run: |
+          pwd \
+          && ls /home/runner/work/doncris \
+          && cd /home/runner/work/doncris/doncris/themes \
+      - name: Lsit current folder
+        run: |
           pwd
-          ls /home/runner/work/doncris
-          cd /home/runner/work/doncris/doncris/themes
       - name: Checkout theme
         uses: actions/checkout@v3
         with:
