@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Documentation for PSC'
 
 themeDir="/home/runner/work/doncris"
-theme="hugo-theme-relearn"
+#theme="hugo-theme-relearn"
 
 # See also https://github.com/gohugoio/hugo/issues/4691
 # "Relearn" theme configuration docs at: https://mcshelby.github.io/hugo-theme-relearn/
