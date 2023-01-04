@@ -2,7 +2,7 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Documentation for PSC'
 
-themeDir="/home/runner/work/doncris/doncris"
+themeDir="/home/runner/work/doncris"
 theme="hugo-theme-relearn"
 
 # See also https://github.com/gohugoio/hugo/issues/4691
