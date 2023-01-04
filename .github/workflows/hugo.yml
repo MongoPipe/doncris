@@ -50,7 +50,9 @@ jobs:
           && ls /home/runner/work/doncris \
           && ls /home/runner/work/doncris \
           && ls /home/runner/work/doncris/doncris \
-          && ls /home/runner/work/doncris/doncris
+          && ls /home/runner/work/doncris/doncris \
+          && mkdir /home/runner/work/doncris/doncris/themes \
+          && cd /home/runner/work/doncris/doncris/themes
       - name: Lsit current folder
         run: |
           pwd
