@@ -45,11 +45,7 @@ jobs:
       - name: Change folder
         run: |
           pwd \
-          && pwd \
-          && pwd \         
           && ls /home/runner/work/doncris \
-          && ls /home/runner/work/doncris \
-          && ls /home/runner/work/doncris/doncris \
           && ls /home/runner/work/doncris/doncris \
           && mkdir /home/runner/work/doncris/doncris/themes \
           && cd /home/runner/work/doncris/doncris/themes
