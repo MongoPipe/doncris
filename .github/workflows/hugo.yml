@@ -51,9 +51,6 @@ jobs:
       - name: ls /home/runner/work/doncris/doncris
         run: |
           ls /home/runner/work/doncris/doncris
-      - name: mkdir /home/runner/work/doncris/doncris/themes
-        run: |
-          mkdir /home/runner/work/doncris/doncris/themes
       - name: cd themes
         run: |
           cd /home/runner/work/doncris/doncris/themes
