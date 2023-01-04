@@ -65,9 +65,8 @@ jobs:
           submodules: recursive
       - name: List folders
         run: |
-          pwd
-          ls /home/runner/work/doncris
-          cd /home/runner/work/doncris/doncris/themes
+          pwd \
+          && ls /home/runner/work/doncris
       - name: List folders2
         run: |
           ls /home/runner/work/doncris/doncris
