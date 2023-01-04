@@ -1,3 +1,27 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site.'
+title = 'Documentation for PSC'
+theme="hugo-theme-relearn"
+
+# See also https://github.com/gohugoio/hugo/issues/4691
+
+# "Relearn" theme configuration docs at: https://mcshelby.github.io/hugo-theme-relearn/
+menuTitle = "aaaaaaaaaaaaaaaaaaa"
+
+# This will generate a search index file at the root of your public folder ready to be consumed by the lunr.js javascript search engine.
+[outputs]
+  home = ["HTML", "RSS", "SEARCH", "SEARCHPAGE"]
+  #section = ["HTML", "RSS", "PRINT"]
+  #page = ["HTML", "RSS", "PRINT"]
+
+# https://mcshelby.github.io/hugo-theme-relearn/basics/configuration/index.html
+[params]
+editURL = "Edit"
+showVisitedLinks = false
+disableSearch = false
+alwaysopen = true
+disableExplicitIndexURLs = true
+disableLandingPageButton = false
+#themeVariant = "blue"
+#themeVariant = "learn"
+#themeVariant = "relearn-light"
