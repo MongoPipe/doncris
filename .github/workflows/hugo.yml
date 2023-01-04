@@ -45,7 +45,11 @@ jobs:
       - name: Change folder
         run: |
           pwd \
-          pwd \
+          && pwd \
+          && pwd \
+          && pwd \
+          && pwd \
+          && pwd \
           && ls /home/runner/work/doncris \
           && ls /home/runner/work/doncris \
       - name: Lsit current folder
