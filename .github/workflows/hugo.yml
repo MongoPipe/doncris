@@ -55,7 +55,8 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --theme "https://mcshelby.github.io/hugo-theme-relearn/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
