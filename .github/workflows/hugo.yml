@@ -54,6 +54,12 @@ jobs:
           ####github-server-url: ''
           
           submodules: recursive
+      - name: List folders
+        run: |
+          ls /home/runner/work/doncris
+      - name: List folders2
+        run: |
+          ls /home/runner/work/doncris/doncris
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
