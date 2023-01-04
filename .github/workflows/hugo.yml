@@ -42,13 +42,21 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: recursive
-      - name: Change folder
+      - name: pwd
         run: |
-          pwd \
-          && ls /home/runner/work/doncris \
-          && ls /home/runner/work/doncris/doncris \
-          && mkdir /home/runner/work/doncris/doncris/themes \
-          && cd /home/runner/work/doncris/doncris/themes
+          pwd
+      - name: ls /home/runner/work/doncris
+        run: |
+          ls /home/runner/work/doncris
+      - name: ls /home/runner/work/doncris/doncris
+        run: |
+          ls /home/runner/work/doncris/doncris
+      - name: mkdir /home/runner/work/doncris/doncris/themes
+        run: |
+          mkdir /home/runner/work/doncris/doncris/themes
+      - name: cd themes
+        run: |
+          cd /home/runner/work/doncris/doncris/themes
       - name: Lsit current folder
         run: |
           pwd
